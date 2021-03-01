@@ -1,4 +1,4 @@
-FROM apline
+FROM alpine
 RUN apk update && apk add nodejs
 COPY . /app
 WORKDIR /app
